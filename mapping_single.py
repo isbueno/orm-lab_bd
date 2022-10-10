@@ -1,7 +1,7 @@
 from sqlalchemy import create_engine, Column, Integer, String
 from sqlalchemy.orm import declarative_base, sessionmaker
 
-URL = "mysql+mysqlconnector://root:polimataIFSP.email23@localhost:3306/orm_bd"
+URL = "mysql+mysqlconnector://root:password@localhost:3306/orm_bd"
 
 # $ cd C:\Program Files\MySQL\MySQL Server 8.0\bin
 
